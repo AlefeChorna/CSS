@@ -1,0 +1,19 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+}
+
+.box {
+    width: 150px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+    flex-grow: 1; /* component changes size according to width and height of screen*/
+    flex-shrink: 0; /* component can not be smaller than its default width */
+}
